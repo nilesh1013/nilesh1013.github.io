@@ -58,7 +58,7 @@ requests like for example: Generally we run Python-Django server using uwsgi/ngi
 
 **Asynchronous, Non-blocking example**:
 
-Asynchronous, Non-blocking servers like ones ones made in Node, only use one thread to service all requests.This means an instance of Node makes the most out of a single thread. The creators designed it with the premise that the I/O and network operations are the bottleneck.
+Asynchronous, Non-blocking servers like ones ones made in Node.js, only use one thread to service all requests.This means an instance of Node makes the most out of a single thread. The creators designed it with the premise that the I/O and network operations are the bottleneck.
 
 When requests arrive at the server, they are serviced one at a time. However, when the code serviced needs to query the DB for example, it sends the callback to a second queue and the main thread will continue running (it doesn't wait).
 
