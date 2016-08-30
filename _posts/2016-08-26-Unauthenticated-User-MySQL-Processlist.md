@@ -7,13 +7,14 @@ Yesterday I have seen in MySQL processlist some unauthenticated user was showing
 
 ##  Unauthenticated User in MySQL ProcessList
 -----
-
+{% highlight sql %}
 | 305168 | debian               | 127.0.0.1:39834 | NULL      | Connect |  NULL | Reading from net   | NULL             |    0.000 |
 | 305169 | debian               | 127.0.0.1:39114 | NULL      | Connect |  NULL | Reading from net   | NULL             |    0.000 |
 | 305170 | unauthenticated user | 127.0.0.1:39842 | NULL      | Connect |  NULL | Reading from net   | NULL             |    0.000 |
 | 305171 | unauthenticated user | 127.0.0.1:39860 | NULL      | Connect |  NULL | Reading from net   | NULL             |    0.000 |
 | 305172 | unauthenticated user | 127.0.0.1:39876 | NULL      | Connect |  NULL | Reading from net   | NULL             |    0.000 |
 +--------+----------------------+-----------------------+-----------+---------+-------+--------------------+------------------+----------+
+{% endhighlight %}
 
 
 Apparently what happened that a connection with "unauthenticated user" in the User column has initiated a connection but hasn't sent his credentials yet, so the server doesn't know who exactly is connecting.
