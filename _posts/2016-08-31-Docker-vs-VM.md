@@ -9,4 +9,4 @@ Let's try to understand between Docker vs Virtual Machine.
 ## Docker vs Virtual Machine
 -----
 
-http://i.imgur.com/MJHfm1c.jpg
+![docker-vs-vm](http://i.imgur.com/MJHfm1c.jpg)
