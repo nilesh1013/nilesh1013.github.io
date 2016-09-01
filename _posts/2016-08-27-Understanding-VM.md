@@ -27,3 +27,16 @@ Your virtual machine’s operating system is stored on a virtual hard drive — 
 Ideally virtual machines won’t be as fast as if you had installed the operating system on real hardware.
 
 Virtual machines are also “sandboxed” from the rest of your system, which means that software inside a virtual machine can’t escape the virtual machine and tamper with the rest of your system. A virtual machine can be a good place to rest out programs you don’t trust and see what they do.
+
+For creating virtual machine and resource allocation to it we generally use a device or software which we call Hypervisor.
+
+## Hypervisor
+-----
+The hypervisor also called as virtual machine manager is the device or software which runs the virtual machine. It's typically responsible for allocating the resources, providing the interface between the virtual machine (the "guest") and the host system as well as any management software. It also makes sure that virtual machines cannot disrupt each other.
+
+So if you're using VMware Workstation to run a Windows 7 virtual machine, VMware Workstation is the hypervisor.
+
+The overall architecture of virtual machines looks something like this:
+
+![virtual-machine-architecture](http://2.bp.blogspot.com/_AXUmwddhdfA/TP1-XWhvypI/AAAAAAAAAzg/3x7aEDsiqu4/s1600/Virtual+Machines.png)
+
