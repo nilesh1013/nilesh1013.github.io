@@ -4,7 +4,7 @@ title: Understanding Virtual Machine
 author: Nilesh Sharma
 ---
 
-What is a virtual machine, What are it's uses and best practises to use it ?
+What is a virtual machine, What are it's uses ?
 
 ## Understanding Virtual Machine
 -----
