@@ -14,6 +14,7 @@ A virtual machine is a software computer that, like a physical machine, runs an 
 It uses the physical resources of the physical machine on which it runs, which is called the host system. Virtual machines have virtual devices that provide the same functionality as physical hardware.
 
 Some of the benefits of virtual machines are:
+
 - Cross platform compatibility
 - Increase Security
 - Enhance Performance
