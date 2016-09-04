@@ -12,7 +12,7 @@ From the Docker website: Docker containers wrap up a piece of software in a comp
 
 ![docker-machine-architecture](https://www.docker.com/sites/default/files/WhatIsDocker_3_Containers_2_0.png)
 
-## Some good things about Docker is:
+## Advantages of Docker:
 -----
 - Rapid application deployment – containers include the minimal runtime requirements of the application, reducing their size and allowing them to be deployed quickly.
 
