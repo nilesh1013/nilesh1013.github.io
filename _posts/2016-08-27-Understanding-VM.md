@@ -40,3 +40,5 @@ The overall architecture of virtual machines looks something like this:
 
 ![virtual-machine-architecture](https://2.bp.blogspot.com/_AXUmwddhdfA/TP1-XWhvypI/AAAAAAAAAzg/3x7aEDsiqu4/s1600/Virtual+Machines.png)
 
+![virtual-machine-guest-os-hypervisor](https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png)
+
